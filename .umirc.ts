@@ -22,4 +22,7 @@ export default defineConfig({
     },
   ],
   // more config: https://d.umijs.org/config
+  devServer: {
+    port: 13320,
+  },
 });

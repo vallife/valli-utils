@@ -58,40 +58,12 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default, require('D:/Work/PersonalKit-vallife/valli-utils/node_modules/dumi-theme-default/es/layout.js').default],
     "routes": [
       {
-        "path": "/libs/foo",
-        "component": require('D:/Work/PersonalKit-vallife/valli-utils/src/Foo/index.md').default,
-        "exact": true,
-        "meta": {
-          "filePath": "src/Foo/index.md",
-          "updatedTime": 1639563315000,
-          "componentName": "Foo",
-          "title": "测试",
-          "nav": {
-            "title": "使用文档",
-            "path": "/libs"
-          },
-          "group": {
-            "path": "/libs/",
-            "order": 2,
-            "title": "使用文档"
-          },
-          "slugs": [
-            {
-              "depth": 2,
-              "value": "Foo",
-              "heading": "foo"
-            }
-          ]
-        },
-        "title": "测试 - valli-utils"
-      },
-      {
         "path": "/libs/uuid",
         "component": require('D:/Work/PersonalKit-vallife/valli-utils/src/uuid/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "src/uuid/index.md",
-          "updatedTime": 1640063579502,
+          "updatedTime": 1640063604000,
           "componentName": "uuid",
           "title": "uuid - 生成唯一id",
           "nav": {
@@ -119,7 +91,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1639563315000,
+          "updatedTime": 1640063604000,
           "title": "dumi - 为组件开发场景而生的文档工具",
           "order": 10,
           "hero": {
@@ -157,10 +129,10 @@ export function getRoutes() {
       {
         "path": "/libs/",
         "meta": {
-          "order": 2
+          "order": 1
         },
         "exact": true,
-        "redirect": "/libs/foo"
+        "redirect": "/libs/uuid"
       },
       {
         "path": "/libs",

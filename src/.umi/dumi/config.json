@@ -10,11 +10,6 @@
           },
           "children": [
             {
-              "path": "/libs/foo",
-              "title": "测试",
-              "meta": {}
-            },
-            {
               "path": "/libs/uuid",
               "title": "uuid - 生成唯一id",
               "meta": {}
