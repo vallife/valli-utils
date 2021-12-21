@@ -1,13 +1,13 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'valli-utils';
 
 export default defineConfig({
   title: repo,
   favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://oss.tool.lu/cache/202112/21/123226vc5hbztycsl0k5y5.jpg.icon.ico',
   logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://oss.tool.lu/cache/202112/21/123226vc5hbztycsl0k5y5.jpg.icon.png',
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,

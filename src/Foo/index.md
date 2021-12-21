@@ -1,7 +1,11 @@
 ---
+title: 测试
 nav:
-  title: Components
-  path: /components
+  title: 使用文档
+  path: /libs
+group:
+  path: /
+  order: 2
 ---
 
 ## Foo
@@ -15,4 +19,4 @@ import { Foo } from 'dumi-template';
 export default () => <Foo title="First Demo" />;
 ```
 
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
+[更多技巧](https://d.umijs.org/guide/demo-principle)
