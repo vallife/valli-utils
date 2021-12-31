@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/vallife/valli-utils.git',
     },
   ],
   // more config: https://d.umijs.org/config
