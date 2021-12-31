@@ -117,7 +117,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/uuid/index.md",
-          "updatedTime": 1640927323000,
+          "updatedTime": 1640931859000,
           "componentName": "uuid",
           "title": "uuid - 生成唯一id",
           "nav": {
