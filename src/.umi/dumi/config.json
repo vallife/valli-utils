@@ -10,6 +10,16 @@
           },
           "children": [
             {
+              "path": "/libs/obj2url",
+              "title": "obj2url - 将对象参数解析为url字符串",
+              "meta": {}
+            },
+            {
+              "path": "/libs/url2obj",
+              "title": "url2obj - 解码、获取url中参数并转为对象",
+              "meta": {}
+            },
+            {
               "path": "/libs/uuid",
               "title": "uuid - 生成唯一id",
               "meta": {}
@@ -20,7 +30,7 @@
       "*": [
         {
           "path": "/",
-          "title": "dumi - 为组件开发场景而生的文档工具",
+          "title": "valli-utils - 为组件开发场景而生的文档工具",
           "meta": {
             "order": 10
           }
@@ -50,8 +60,8 @@
   "logo": "https://oss.tool.lu/cache/202112/21/123226vc5hbztycsl0k5y5.jpg.icon.png",
   "mode": "site",
   "repository": {
-    "url": "https://github.com/umijs/dumi-template",
-    "branch": "main"
+    "url": "https://github.com/vallife/valli-utils",
+    "branch": "master"
   },
   "theme": {}
 }

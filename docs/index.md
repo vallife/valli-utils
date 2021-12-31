@@ -1,8 +1,8 @@
 ---
-title: dumi - 为组件开发场景而生的文档工具
+title: valli-utils - 为组件开发场景而生的文档工具
 order: 10
 hero:
-  title: dumi
+  title: valli-utils
   desc: 📖 为组件开发场景而生的文档工具
   actions:
     - text: 快速上手
@@ -17,5 +17,5 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/b3e102cd-5dad-4046-a02a-be33241d1cc7/kj9t8oji_w144_h144.png
     title: 面向复杂场景
     desc: 基于复杂场景的深度封装
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
+footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by DQY
 ---

@@ -13,18 +13,17 @@ group:
 Demo:
 
 ```tsx | pure
-import { uuit } from 'valli-util';
-import { uuid } from 'xijs';
+import { uuit } from '@vallife/valli-util';
 
 const id1 = uuid(8);
 
-console.log(id1); // -> RvuUN6RS
+console.log(id1); // -> BUfS1qrn
 
 const id2 = uuid(10);
-console.log(id2); // -> kvKnvYC2Jb
+console.log(id2); // -> Zd9hoanTYu
 
 const id3 = uuid(16);
-console.log(id3); // -> su7itMfdk6f8ZcGi
+console.log(id3); // -> tXIEXMFXG77P4dN8
 ```
 
 [更多技巧](https://zelark.github.io/nano-id-cc/)

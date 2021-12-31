@@ -58,6 +58,60 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default, require('D:/Work/PersonalKit-vallife/valli-utils/node_modules/dumi-theme-default/es/layout.js').default],
     "routes": [
       {
+        "path": "/libs/obj2url",
+        "component": require('D:/Work/PersonalKit-vallife/valli-utils/src/obj2url/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "src/obj2url/index.md",
+          "updatedTime": 1640919865668,
+          "title": "obj2url - 将对象参数解析为url字符串",
+          "nav": {
+            "title": "使用文档",
+            "path": "/libs"
+          },
+          "group": {
+            "path": "/libs/",
+            "order": 2,
+            "title": "使用文档"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "obj2url",
+              "heading": "obj2url"
+            }
+          ]
+        },
+        "title": "obj2url - 将对象参数解析为url字符串 - valli-utils"
+      },
+      {
+        "path": "/libs/url2obj",
+        "component": require('D:/Work/PersonalKit-vallife/valli-utils/src/url2obj/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "src/url2obj/index.md",
+          "updatedTime": 1640927116178,
+          "title": "url2obj - 解码、获取url中参数并转为对象",
+          "nav": {
+            "title": "使用文档",
+            "path": "/libs"
+          },
+          "group": {
+            "path": "/libs/",
+            "order": 3,
+            "title": "使用文档"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "url2obj",
+              "heading": "url2obj"
+            }
+          ]
+        },
+        "title": "url2obj - 解码、获取url中参数并转为对象 - valli-utils"
+      },
+      {
         "path": "/libs/uuid",
         "component": require('D:/Work/PersonalKit-vallife/valli-utils/src/uuid/index.md').default,
         "exact": true,
@@ -92,10 +146,10 @@ export function getRoutes() {
         "meta": {
           "filePath": "docs/index.md",
           "updatedTime": 1640063604000,
-          "title": "dumi - 为组件开发场景而生的文档工具",
+          "title": "valli-utils - 为组件开发场景而生的文档工具",
           "order": 10,
           "hero": {
-            "title": "dumi",
+            "title": "valli-utils",
             "desc": "<div class=\"markdown\"><p>📖 为组件开发场景而生的文档工具</p></div>",
             "actions": [
               {
@@ -121,18 +175,18 @@ export function getRoutes() {
               "desc": "<div class=\"markdown\"><p>基于复杂场景的深度封装</p></div>"
             }
           ],
-          "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self</p></div>",
+          "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2019-present<br />Powered by DQY</p></div>",
           "slugs": []
         },
-        "title": "dumi - 为组件开发场景而生的文档工具 - valli-utils"
+        "title": "valli-utils - 为组件开发场景而生的文档工具 - valli-utils"
       },
       {
         "path": "/libs/",
         "meta": {
-          "order": 1
+          "order": 2
         },
         "exact": true,
-        "redirect": "/libs/uuid"
+        "redirect": "/libs/obj2url"
       },
       {
         "path": "/libs",

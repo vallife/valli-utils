@@ -1,12 +1,12 @@
 {
-  "private": true,
-  "name": "valli-util",
-  "version": "1.0.0",
+  "name": "@vallife/valli-util",
+  "version": "0.1.1",
+  "description": "Business-oriented scene JS library",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father-build",
+    "build": "father-build && cp package.json dist/package.json",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
@@ -17,13 +17,9 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/umijs/dumi-template",
-    "branch": "main"
-  },
+  "repository": "git@github.com:vallife/valli-utils.git",
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
@@ -32,6 +28,8 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "author": "dyc <dycyachao0818@163.com>",
+  "license": "MIT",
   "dependencies": {
     "nanoid": "^3.1.30",
     "react": "^16.12.0"
