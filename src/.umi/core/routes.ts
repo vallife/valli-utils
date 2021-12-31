@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/obj2url/index.md",
-          "updatedTime": 1640919865668,
+          "updatedTime": 1640927323000,
           "title": "obj2url - 将对象参数解析为url字符串",
           "nav": {
             "title": "使用文档",
@@ -90,7 +90,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/url2obj/index.md",
-          "updatedTime": 1640927116178,
+          "updatedTime": 1640927323000,
           "title": "url2obj - 解码、获取url中参数并转为对象",
           "nav": {
             "title": "使用文档",
@@ -117,7 +117,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/uuid/index.md",
-          "updatedTime": 1640063604000,
+          "updatedTime": 1640927323000,
           "componentName": "uuid",
           "title": "uuid - 生成唯一id",
           "nav": {

@@ -15,7 +15,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { url2obj } from '@vallife/valli-util';
+import { url2obj } from '@vallife/utils-valli';
 
 url2obj('?name=valli-util&desc=util'); // {name: 'valli-util', desc: 'util'}
 ```
@@ -25,7 +25,7 @@ url2obj('?name=valli-util&desc=util'); // {name: 'valli-util', desc: 'util'}
 Demo:
 
 ```tsx | pure
-import { keyParam } from '@vallife/valli-util';
+import { keyParam } from '@vallife/utils-valli';
 keyParam(
   'q',
   'https://www.bing.com/search?q=npm+%E5%8F%91%E5%B8%83%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E5%A4%B9&PC=U316&FORM=CHROMN',
