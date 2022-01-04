@@ -106,3 +106,4 @@ dist
 yarn.lock
 .umi/
 /src/.umi
+/yarn.lock
