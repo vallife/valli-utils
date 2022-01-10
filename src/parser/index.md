@@ -52,5 +52,5 @@ parser.parse(parser.stringify(valli));
 
 // 使用原生json api
 parser.nativeStringify(valli);
-parser.nativeParse(valli);
+parser.nativeParse(parser.nativeStringify(valli));
 ```
