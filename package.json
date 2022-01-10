@@ -1,6 +1,6 @@
 {
   "name": "@vallife/utils-valli",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Business-oriented scene JS library",
   "scripts": {
     "start": "dumi dev",
