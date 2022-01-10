@@ -15,7 +15,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { url2obj } from '@vallife/utils-valli/dist';
+import { url2obj } from '@vallife/utils-valli';
 
 url2obj('?name=valli-util&desc=util'); // {name: 'valli-util', desc: 'util'}
 ```
