@@ -13,7 +13,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { uuid } from '@vallife/utils-valli';
+import { uuid } from '@vallife/utils-valli/dist';
 
 const id1 = uuid(8);
 
