@@ -2,7 +2,7 @@
  *  支持过期时间的localStorage库
  */
 const store = {
-  preId: 'valli',
+  preId: 'valli-',
   timeSign: '|-valli-|',
   status: {
     SUCCESS: 0,

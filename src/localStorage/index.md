@@ -16,7 +16,7 @@ Demo:
 
 ```tsx | pure
 import { store } from '@vallife/utils-valli';
-// 将对象序列化
+
 store.set('name', 'valli', Date.now() + 1000);
 console.log(store.get('name'));
 setTimeout(() => {
@@ -30,9 +30,6 @@ store.set('valli', 'dyc', Date.now() + 1000, (status, key, value) => {
 ```
 
 ```tsx | pure
-/**
- * title: 打开控制台查看结果
- */
 import { store } from '@vallife/utils-valli';
 
 // 设置过期时间
