@@ -1,5 +1,5 @@
 /**
- *  支持过期时间的localStorage库
+ * 支持过期时间的localStorage库
  */
 const store = {
   preId: 'valli-',

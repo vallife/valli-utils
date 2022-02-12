@@ -1,5 +1,8 @@
 /**
- *  时间格式化
+ * @description 时间格式化
+ * @param time
+ * @param format
+ * @returns
  */
 function formatDate(time: number, format: string = 'yyyy-MM-dd HH:mm:ss') {
   const date = new Date(time);
