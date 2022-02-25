@@ -6,9 +6,14 @@
  * @param immediate true 表立即执行，false 表非立即执行
  * @returns
  */
-const debounce = function(func: any, wait: number, immediate: boolean) {
+const debounce = function(
+  this: any,
+  func: any,
+  wait: number,
+  immediate: boolean,
+) {
   let timer: any;
-  return function() {
+  return () => {
     let context = this;
     let args = [].slice.call(arguments); // 将具有length属性的对象转成数组
     if (timer) clearTimeout(timer);

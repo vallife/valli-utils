@@ -10,7 +10,7 @@ export default defineConfig({
     'https://oss.tool.lu/cache/202202/07/171151k8tzn7m27kq9td7k.jpg.icon.png',
   outputPath: 'docs-dist',
   mode: 'site',
-  hash: true,
+  // hash: true,
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,

@@ -1,6 +1,6 @@
 {
   "name": "@vallife/utils-valli",
-  "version": "0.2.9",
+  "version": "0.3.1",
   "description": "Business-oriented scene JS library",
   "scripts": {
     "start": "dumi dev",
@@ -17,7 +17,7 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
-    "pre-commit": "lint-staged && npm run build"
+    "pre-commit": "lint-staged && npm run release"
   },
   "repository": {
     "type": "git",
