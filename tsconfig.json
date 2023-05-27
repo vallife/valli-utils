@@ -8,13 +8,13 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "./",
+    "useUnknownInCatchVariables": false,
     "strict": true,
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
-    "allowSyntheticDefaultImports": true,
-    "suppressImplicitAnyIndexErrors": true
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules",
@@ -24,7 +24,7 @@
     "typings",
     "**/__test__",
     "test",
-    "tests",
-    "docs"
+    "docs",
+    "tests"
   ]
 }

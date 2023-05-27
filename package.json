@@ -11,24 +11,23 @@
     "release": "npm run build && cd dist && npm publish --access public",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "lint": "eslint src/**/*.ts --fix",
+    "test:onlyChanged":"umi-test --onlyChanged"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
-    "pre-commit": "lint-staged && npm run release"
+    "pre-commit": "npm run test:onlyChanged"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/vallife/valli-utils.git"
   },
   "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
+    "*.ts": [
+      "npm run lint"
     ]
   },
   "author": "dyc <dycyachao0818@163.com>",
